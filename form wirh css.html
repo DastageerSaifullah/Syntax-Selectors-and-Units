@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="form style sheet.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form>
+          <label for="name">Name</label> <br>
+          <input type="text" name="name" required placeholder="Enter your name"><br><br>
+          <label for="email">Email</label><br>
+          <input type="email_id" name="email id" required placeholder="test@gmail.com"><br><br>
+          <label>Roll No</label><br>
+          <input type="number" name="roll number" required placeholder="roll"><br><br>
+          <label for="drop_down"> How do you rate our courses? </label><br>
+          <select name="drop-down">
+            <option value="Excellent">Excellent</option>
+            <option value="very good">Very good</option>
+            <option value="good">Good</option>
+            <option value="week">Week</option>
+            <option value="poor">Poor</option>
+          </select>
+          <br><br>
+          <label>Your favourite topic in HTML</label> <br>
+          <input type="checkbox" name="topic1" value="Structural Elements"> Structural Elements <br>
+          <input type="checkbox" name="topic2" value="Links and List"> Links and List <br>
+          <input type="checkbox" name="topic3" value="HTML Media"> HTML Media <br>
+          <input type="checkbox" name="topic4" value="HTML Table"> HTML Table <br>
+          <input type="checkbox" name="topic5" value="Grouping Elements"> Grouping Elements <br>
+          <input type="checkbox" name="topic6" value="Forms"> Forms <br><br>
+          <label>Do you like the HTML course?</label> <br>
+          <input type="radio" name="course" value="yes">Yes<br>
+          <input type="radio" name="course" value="no">No<br><br>
+          <label>Few words about course</label><br>
+          <textarea rows="6" cols="50" name="description" id="description"></textarea><br><br>
+          <button type="button" onclick="alert('validating')">submit</button>
+       </form>
+    </body>
+</html>

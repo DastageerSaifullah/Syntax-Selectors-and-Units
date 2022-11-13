@@ -1,0 +1,16 @@
+label {
+    color: green;
+}
+button{
+    color: black;
+    background-color: green;
+}
+input{
+    border-radius: 25px
+}
+textarea{
+    border-radius: 25px;
+}
+select{
+    border-radius: 25px;
+}
